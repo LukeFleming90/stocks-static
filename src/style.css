@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: left;
+    background: #6532CB;
+    color: white;
+    padding: 15px;
+    font-size: 2em;
+}
+  
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  
+tr:hover {background-color: coral;}
+
+td:nth-child(1) {width: 60%;}
+
+td:nth-child(2) {width: 20%;}
+
+td:nth-child(3) {width: 20%;}
+
+.link-style {
+    text-decoration: none;
+}
